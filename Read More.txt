@@ -1,0 +1,8 @@
+The code is written for UBUNTU GCC.
+The link.sh file can only be executed in Ubuntu GCC.
+The whole folder should be placed in a directory accessible via Terminal.
+Then execute the link.sh file.
+All the other codes wiull be executed automatically.
+We can switch between one scheduler to another scheduker algo seamlessly just by choosing the options.
+
+Thank you.
