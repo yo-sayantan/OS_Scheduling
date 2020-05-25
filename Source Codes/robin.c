@@ -159,7 +159,7 @@ void display()
 {
 	int i,j;
 	printf("\n");
-	for(i=0;i<=200;i++)
+	for(i=0;i<=80;i++)
 		printf("-");
 	printf("\n\nThe output is:\n");
 	printf("Process\tAT\tBT-1\tI/OT\tBT-2\tWT\tTAT\tCT\n");
@@ -171,7 +171,7 @@ void display()
 		printf("\n");
 	}
 	printf("\n");
-	for(i=0;i<=90;i++)
+	for(i=0;i<=80;i++)
 		printf("-");
 	printf("\n\nThe ready queue is:\n");
 	for(i=rqc;i>=1;i--)
@@ -377,7 +377,7 @@ int main()
 {
 	int i;
 	printf("\n");
-	for(i=0;i<=200;i++)
+	for(i=0;i<=80;i++)
 		printf("-");
 	printf("\nEnter the number of processes: ");
 	scanf("%d",&n);
@@ -386,9 +386,13 @@ int main()
 	robin();
 
 	printf("\n");
-	for(i=0;i<=97;i++)
+	for(i=0;i<=40;i++)
 		printf("-x");	
 	printf("\n");
 	
+	char key = getch();
+    if(key=='T' || key=='t')
+        exit(0);
+        
 	return 0;
 }

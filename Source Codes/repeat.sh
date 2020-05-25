@@ -10,7 +10,7 @@ then
 	echo
 	echo "Thank You"
 	echo
-	for ((i=0;i<=97;i++))
+	for ((i=0;i<=40;i++))
 	do
 		echo -n "-x"	
 	done
